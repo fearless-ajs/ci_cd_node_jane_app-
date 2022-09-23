@@ -17,7 +17,7 @@
 
     "install-server": "npm install",
     "install-client": "npm install --prefix client",
-    "install-all-packages": "npm run install-server && npm run install-client",
+    "install-all-packages": "npm run install-client && npm run install-server",
     "server": "npm start",
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
