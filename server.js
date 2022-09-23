@@ -43,7 +43,7 @@ class Server {
             //START SERVER
             this.startServer();
         }).catch(err => {
-            console.log('Database connection failed');
+            console.log('Database connection failed' + err.message);
             return false
         });
     }
